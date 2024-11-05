@@ -34,7 +34,7 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '27705761'))
 API_HASH = environ.get('API_HASH', '822cb334ca4527a134aae97f9fe44fd6')
 OWNER_ID = environ.get('OWNER_ID', '1876329759')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7859871122:AAF1vIlu7bufChe8XJexmjh8vhdkMV9rc60")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7859871122:AAG_mBgBRUd5YD6s54EjZxsHkClwAEDvB84")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -57,7 +57,7 @@ STREAMHTO = (environ.get('STREAMHTO', ''))
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 PREFIX = environ.get("PREFIX", "/")
 
-CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1002228923018"))
+CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1002186197570"))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1876329759').split()]
